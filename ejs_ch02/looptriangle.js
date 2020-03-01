@@ -16,3 +16,8 @@ function loopTriangle(num) {
 }
 
 loopTriangle(7)
+
+
+// book solution
+for (let line = "#"; line.length < 8; line += "#")
+  console.log(line);
