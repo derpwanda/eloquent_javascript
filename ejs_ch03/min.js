@@ -1,7 +1,7 @@
 //chapter 3 exercises
 //completed reading 
 
-
+// create a function that returns the min of two nums
 function min(x, y){
     if (x <= y){
         return x;
@@ -9,10 +9,5 @@ function min(x, y){
         return y
     }
 }
-
-console.log(min(6, 8))
-console.log(min(18, 6))
-console.log(min(1, 1))
-console.log(min(5, 37))
 
 module.exports = min;

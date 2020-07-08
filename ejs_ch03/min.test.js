@@ -1,4 +1,4 @@
-const min = require("./ch03");
+const min = require("./min");
 
 test("returns 15 minimum value", () => {
     expect(min(87, 15)).toBe(15);
