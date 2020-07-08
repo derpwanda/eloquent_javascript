@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/derpwanda/eloquent_javascript.git"
   },
-  "author": "",
+  "author": "Wanda",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/derpwanda/eloquent_javascript/issues"
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/derpwanda/eloquent_javascript#readme",
   "dependencies": {
     "node": "^13.8.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
   }
 }
