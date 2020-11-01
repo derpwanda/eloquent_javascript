@@ -9,5 +9,4 @@ const isEven = (n) => {
     }
 };
 
-console.log(isEven(50))
-console.log(isEven(75))
+module.exports = isEven;
