@@ -7,3 +7,7 @@ test("return true", () => {
 test("return false", () => {
     expect(isEven(75)).toBe(false)
 })
+
+test("return string", () => {
+    expect(isEven(-1)).toBe("Must be a positive integer.")
+})
