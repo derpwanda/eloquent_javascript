@@ -1,7 +1,7 @@
 const {countBs, countChar} = require("./beancount")
 
 test("returns ", () => {
-    expect(countBs("BBC")).toBe(2);
+    expect(countBs("BBCb")).toBe(2);
 })
 
 test("returns ", () => {
