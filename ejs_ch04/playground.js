@@ -1,3 +1,7 @@
+const JOURNAL = require("./journal");
+
+
+
 // OBJECTS and ARRAYS
 
 // the weresquirrel
@@ -59,7 +63,7 @@ let day1 = {
 // console.log(score)
 
 let journal = [];
-console.log(journal)
+// console.log(journal)
 
 function addEntry(events, squirrel) {
     journal.push({events, squirrel});
@@ -72,4 +76,27 @@ addEntry(["work", "ice cream", "cauliflower", "lasagna",
 addEntry(["weekend", "cycling", "break", "peanuts",
 "beer"], true);
 
-console.log("updated journal: \n", journal)
+// console.log("updated journal: \n", journal)
+
+// for..in iterates over all enumerable property keys of an object
+
+// for..of iterates over the values of an iterable object. Examples of iterable objects are arrays, strings, and NodeLists.
+
+// for (let entry = 0; entry < journal.length; entry++) {
+//     console.log(journal[entry].events)
+// }
+
+for (let entryIdx in journal) {
+    for ( let itemIdx in journal[entryIdx].events) {
+        console.log(journal[entryIdx].events[itemIdx])
+    }
+}
+
+
+for (let entry of journal) {
+    // console.log(`${entry.events} events.`);
+    // console.log(entry.events)
+    for (let arrayItem of entry.events) {
+        console.log(arrayItem)
+    }
+  }
